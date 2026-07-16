@@ -6,7 +6,9 @@ Static GitHub Pages site for the proposed NSF IUSE project on integrating comput
 
 The website uses only the one-page project summary for project-level description. The full project description and the draft presentation remain local source material and are ignored by git. Do not add the full project description to this repository.
 
-The current source documents confirm that 15 Ambassadors have been recruited, but do not provide their names or affiliations. Add those profiles to `ambassadors.html` once the list is available.
+The current site lists the 15 Ambassador names and affiliations supplied by the project team. Email addresses are intentionally not published.
+
+The People page includes locally stored professional photos for the six project leads. Each photo is linked to its official institutional profile as the source.
 
 ## Local preview
 
@@ -25,4 +27,3 @@ This site is designed for the organization site repository `physics-computation-
 ## Adding media
 
 Put public media files in `assets/`, then add a linked card to `media.html`. Keep proposal-only documents out of the public repository.
-
