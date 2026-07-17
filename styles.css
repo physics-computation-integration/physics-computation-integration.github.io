@@ -92,7 +92,7 @@ h1 { max-width: 720px; margin-bottom: 26px; font-size: clamp(3.35rem, 6vw, 5.7re
 h2 { margin-bottom: 18px; font-size: clamp(2.15rem, 4vw, 3.6rem); letter-spacing: -0.03em; }
 h3 { margin-bottom: 12px; font-size: 1.45rem; }
 
-.hero h1, .page-hero h1, .contact-hero h1, .ambassador-hero h1 { font-size: clamp(2.4rem, 4vw, 3.7rem); }
+.hero h1, .page-hero h1, .contact-hero h1, .ambassador-hero h1 { font-size: 3.7rem; }
 .hero h1 { max-width: 620px; }
 .opportunity-heading { max-width: 600px; font-size: clamp(2rem, 3.2vw, 2.8rem); }
 
@@ -249,6 +249,7 @@ h3 { margin-bottom: 12px; font-size: 1.45rem; }
   .wordmark { font-size: 1.05rem; }
   h1 { font-size: 3.1rem; }
   h2 { font-size: 2.35rem; }
+  .hero h1, .page-hero h1, .contact-hero h1, .ambassador-hero h1 { font-size: 2.4rem; }
   .hero { padding-top: 58px; padding-bottom: 62px; }
   .hero-art { min-height: 275px; }
   .orbit-one { width: 220px; height: 110px; top: 78px; left: 34px; }
