@@ -68,7 +68,7 @@ a { color: inherit; }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+  grid-template-columns: 1fr;
   align-items: center;
   gap: 72px;
   min-height: 610px;
@@ -131,8 +131,6 @@ h3 { margin-bottom: 12px; font-size: 1.45rem; }
   background: var(--cream);
   border-radius: 50% 50% 5px 5px;
 }
-.vector-logo-art { display: grid; place-items: center; background: white; border-radius: 6px; }
-.vector-logo-art img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .hero-art-grid {
   position: absolute;
   inset: 16% 10% 12%;
