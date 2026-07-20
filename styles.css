@@ -216,6 +216,10 @@ h3 { margin-bottom: 12px; font-size: 1.45rem; }
 .media-empty-mark { display: grid; width: 92px; height: 92px; place-items: center; color: white; background: var(--blue); border-radius: 50%; font-size: 1.5rem; }
 .media-empty h2 { margin-bottom: 13px; }
 .media-empty p:not(.eyebrow) { max-width: 570px; margin-bottom: 0; color: var(--muted); }
+.media-card { max-width: 950px; padding: 42px; border-top: 5px solid var(--teal); background: var(--cream); box-shadow: 0 12px 32px rgba(17, 38, 58, 0.06); }
+.media-card h2 { max-width: 800px; margin-bottom: 16px; }
+.media-card p:not(.eyebrow) { max-width: 680px; color: var(--muted); }
+.media-card .button { margin-top: 10px; }
 .media-summary-row .button { margin-top: 20px; }
 
 .contact-hero { min-height: 620px; padding-top: 120px; padding-bottom: 120px; }
@@ -257,7 +261,7 @@ h3 { margin-bottom: 12px; font-size: 1.45rem; }
   .hero-art-label { right: 22px; bottom: 28px; font-size: 1.05rem; }
   .section, .page-hero, .contact-hero { padding-top: 68px; padding-bottom: 68px; }
   .product-grid, .institution-grid, .leadership-grid, .ambassador-list { grid-template-columns: 1fr; }
-  .callout, .summary-link, .ambassador-panel, .media-empty { padding: 28px; }
+  .callout, .summary-link, .ambassador-panel, .media-empty, .media-card { padding: 28px; }
   .media-empty { grid-template-columns: 1fr; gap: 24px; }
   .footer-wrap { flex-direction: column; gap: 5px; }
 }
